@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E52D63161DA887EA008592D5 /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D63151DA887EA008592D5 /* UITextField+Extension.m */; };
+		E52D631A1DA88CCE008592D5 /* DateUntils.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D63191DA88CCE008592D5 /* DateUntils.m */; };
 		E597C2FA1D9CBCB900B3A175 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E597C2F91D9CBCB900B3A175 /* main.m */; };
 		E597C2FD1D9CBCB900B3A175 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E597C2FC1D9CBCB900B3A175 /* AppDelegate.m */; };
 		E597C3001D9CBCB900B3A175 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E597C2FF1D9CBCB900B3A175 /* ViewController.m */; };
@@ -15,6 +17,11 @@
 		E597C3081D9CBCB900B3A175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E597C3061D9CBCB900B3A175 /* LaunchScreen.storyboard */; };
 		E597C3131D9CBCB900B3A175 /* Kity_PeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E597C3121D9CBCB900B3A175 /* Kity_PeiTests.m */; };
 		E597C3241D9CBD7C00B3A175 /* PPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E597C3231D9CBD7C00B3A175 /* PPAlertView.m */; };
+		E59ABA541D9CE7FD0021465E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E59ABA531D9CE7FD0021465E /* UIView+Extension.m */; };
+		E59ABA571D9CE8100021465E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E59ABA561D9CE8100021465E /* NSString+Extension.m */; };
+		E59ABA5A1D9CE8A80021465E /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E59ABA591D9CE8A80021465E /* NSArray+Extension.m */; };
+		E59ABA5D1D9CF1590021465E /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E59ABA5C1D9CF1590021465E /* NSDictionary+Extension.m */; };
+		E5F86BBE1D9CF357004901BC /* PPUntils.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F86BBD1D9CF357004901BC /* PPUntils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E52D63141DA887EA008592D5 /* UITextField+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extension.h"; sourceTree = "<group>"; };
+		E52D63151DA887EA008592D5 /* UITextField+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extension.m"; sourceTree = "<group>"; };
+		E52D63181DA88CCE008592D5 /* DateUntils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUntils.h; sourceTree = "<group>"; };
+		E52D63191DA88CCE008592D5 /* DateUntils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUntils.m; sourceTree = "<group>"; };
 		E597C2F51D9CBCB900B3A175 /* Kity_Pei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kity_Pei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E597C2F91D9CBCB900B3A175 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E597C2FB1D9CBCB900B3A175 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +54,16 @@
 		E597C3141D9CBCB900B3A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E597C3221D9CBD7C00B3A175 /* PPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPAlertView.h; sourceTree = "<group>"; };
 		E597C3231D9CBD7C00B3A175 /* PPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPAlertView.m; sourceTree = "<group>"; };
+		E59ABA521D9CE7FD0021465E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E59ABA531D9CE7FD0021465E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E59ABA551D9CE8100021465E /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		E59ABA561D9CE8100021465E /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		E59ABA581D9CE8A80021465E /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		E59ABA591D9CE8A80021465E /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		E59ABA5B1D9CF1590021465E /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		E59ABA5C1D9CF1590021465E /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		E5F86BBC1D9CF357004901BC /* PPUntils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPUntils.h; sourceTree = "<group>"; };
+		E5F86BBD1D9CF357004901BC /* PPUntils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPUntils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E52D63171DA88C43008592D5 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				E52D63181DA88CCE008592D5 /* DateUntils.h */,
+				E52D63191DA88CCE008592D5 /* DateUntils.m */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		E597C2EC1D9CBCB900B3A175 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +118,7 @@
 				E597C2FC1D9CBCB900B3A175 /* AppDelegate.m */,
 				E597C2FE1D9CBCB900B3A175 /* ViewController.h */,
 				E597C2FF1D9CBCB900B3A175 /* ViewController.m */,
+				E59ABA511D9CE7B10021465E /* Category */,
 				E597C31D1D9CBCF900B3A175 /* Untils */,
 				E597C3011D9CBCB900B3A175 /* Main.storyboard */,
 				E597C3041D9CBCB900B3A175 /* Assets.xcassets */,
@@ -118,6 +149,9 @@
 		E597C31D1D9CBCF900B3A175 /* Untils */ = {
 			isa = PBXGroup;
 			children = (
+				E5F86BBC1D9CF357004901BC /* PPUntils.h */,
+				E5F86BBD1D9CF357004901BC /* PPUntils.m */,
+				E52D63171DA88C43008592D5 /* Date */,
 				E597C31E1D9CBD3100B3A175 /* ToastAlertView */,
 			);
 			path = Untils;
@@ -130,6 +164,23 @@
 				E597C3231D9CBD7C00B3A175 /* PPAlertView.m */,
 			);
 			path = ToastAlertView;
+			sourceTree = "<group>";
+		};
+		E59ABA511D9CE7B10021465E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E59ABA521D9CE7FD0021465E /* UIView+Extension.h */,
+				E59ABA531D9CE7FD0021465E /* UIView+Extension.m */,
+				E59ABA551D9CE8100021465E /* NSString+Extension.h */,
+				E59ABA561D9CE8100021465E /* NSString+Extension.m */,
+				E59ABA581D9CE8A80021465E /* NSArray+Extension.h */,
+				E59ABA591D9CE8A80021465E /* NSArray+Extension.m */,
+				E59ABA5B1D9CF1590021465E /* NSDictionary+Extension.h */,
+				E59ABA5C1D9CF1590021465E /* NSDictionary+Extension.m */,
+				E52D63141DA887EA008592D5 /* UITextField+Extension.h */,
+				E52D63151DA887EA008592D5 /* UITextField+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,10 +287,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59ABA541D9CE7FD0021465E /* UIView+Extension.m in Sources */,
+				E59ABA571D9CE8100021465E /* NSString+Extension.m in Sources */,
+				E59ABA5D1D9CF1590021465E /* NSDictionary+Extension.m in Sources */,
+				E5F86BBE1D9CF357004901BC /* PPUntils.m in Sources */,
+				E52D631A1DA88CCE008592D5 /* DateUntils.m in Sources */,
 				E597C3001D9CBCB900B3A175 /* ViewController.m in Sources */,
 				E597C2FD1D9CBCB900B3A175 /* AppDelegate.m in Sources */,
 				E597C2FA1D9CBCB900B3A175 /* main.m in Sources */,
+				E52D63161DA887EA008592D5 /* UITextField+Extension.m in Sources */,
 				E597C3241D9CBD7C00B3A175 /* PPAlertView.m in Sources */,
+				E59ABA5A1D9CE8A80021465E /* NSArray+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +496,7 @@
 				E597C3191D9CBCB900B3A175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E597C31A1D9CBCB900B3A175 /* Build configuration list for PBXNativeTarget "Kity_PeiTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +505,7 @@
 				E597C31C1D9CBCB900B3A175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
