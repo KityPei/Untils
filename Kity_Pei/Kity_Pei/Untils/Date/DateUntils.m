@@ -53,7 +53,7 @@
             [dateFormatter setDateFormat:@"HH:mm"];
             break;
         case TimeFormatType_9:
-            return [self getTimeText:timestamp/1000];
+            return [self getTimeText:finalStamp];
             break;
         default:
             break;
@@ -142,7 +142,7 @@
     NSString *dateTimeStr = [dateFormatter stringFromDate:[NSDate dateWithTimeIntervalSince1970:timestamp]];
     
     if ([dateString isEqualToString:todayString]) {
-        return [NSString stringWithFormat:@"今天 %@",dateTimeStr];
+        return [NSString stringWithFormat:@"%@",dateTimeStr];
     } else if([dateTimeStr isEqualToString:yesterdayString]) {
         return [NSString stringWithFormat:@"昨天 %@",dateTimeStr];
     } else if ([dateTimeStr isEqualToString:afterYesterdayString]){

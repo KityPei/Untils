@@ -37,4 +37,17 @@
     return CGSizeMake(ceilf(rect.size.width), ceilf(rect.size.height));
 }
 
+- (id)JSONResolve {
+    if (self.length == 0) {
+        return @{};
+    }
+    NSError *error;
+    NSData *json = [NSJSONSerialization JSONObjectWithData:[self dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:&error];
+    if (json == nil) {
+        NSLog(@"%@ === JSONResolve failed. ",self);
+    }
+    return json;
+}
+
+
 @end

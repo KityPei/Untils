@@ -16,5 +16,6 @@
 // 计算文字所占大小
 - (CGSize)sizeForLabelWithArea:(CGSize)size font:(CGFloat)fontSize;
 
+- (id)JSONResolve;
 
 @end
