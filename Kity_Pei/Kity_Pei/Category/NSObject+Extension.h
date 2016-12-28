@@ -10,6 +10,13 @@
 
 @interface NSObject (Extension)
 
+//  转化成json格式字符串
 - (NSString *)JSONValue;
+
+//  判断是否有效，有效则返回YES, nil或者null返回NO
+- (BOOL) isValid;
+
+//  执行perform延迟方法
+- (void)performAfterDelay:(NSTimeInterval)delay block:(void (^)())block;
 
 @end

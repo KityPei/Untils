@@ -23,4 +23,15 @@
     return @"{}";
 }
 
+- (BOOL) isValid {
+    return !(self==nil || [self isKindOfClass:[NSNull class]]);
+}
+
+- (void)performAfterDelay:(NSTimeInterval)delay block:(void (^)())block{
+    [self performSelector:@selector(ppBlockAfterDelay:) withObject:block afterDelay:delay];
+}
+
+- (void)ppBlockAfterDelay:(void (^)())block {
+    block();
+}
 @end

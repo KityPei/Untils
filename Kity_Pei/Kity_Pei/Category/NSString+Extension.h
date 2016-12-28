@@ -10,12 +10,25 @@
 #import <UIKit/UIKit.h>
 @interface NSString (Extension)
 
-// 此处string是一个路径，计算该路径下文件的大小
+//  判断是否为空
+- (BOOL) isValid;
+
+// 此处路径下文件的大小
 - (long long)fileSize;
 
 // 计算文字所占大小
 - (CGSize)sizeForLabelWithArea:(CGSize)size font:(CGFloat)fontSize;
 
+//  解析json
 - (id)JSONResolve;
+
+//  转化成url
+- (NSURL *)URLValue;
+
+//  判断是否为有效手机号
+- (BOOL)isPhoneNumber;
+
+//  判断是否为有效身份证号码（18位）
+- (BOOL)isIDCard;
 
 @end
