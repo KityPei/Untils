@@ -225,7 +225,6 @@
 				E597C3011D9CBCB900B3A175 /* Main.storyboard */,
 				E597C3041D9CBCB900B3A175 /* Assets.xcassets */,
 				E597C3061D9CBCB900B3A175 /* LaunchScreen.storyboard */,
-				E597C3091D9CBCB900B3A175 /* Info.plist */,
 				E597C2F81D9CBCB900B3A175 /* Supporting Files */,
 			);
 			path = Kity_Pei;
@@ -234,6 +233,7 @@
 		E597C2F81D9CBCB900B3A175 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E597C3091D9CBCB900B3A175 /* Info.plist */,
 				E597C2F91D9CBCB900B3A175 /* main.m */,
 			);
 			name = "Supporting Files";
