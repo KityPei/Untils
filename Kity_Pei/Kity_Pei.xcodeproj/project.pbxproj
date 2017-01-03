@@ -13,7 +13,6 @@
 		E51D71C01E13B867007E2096 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E51D71BF1E13B867007E2096 /* UIImage+Extension.m */; };
 		E52D63161DA887EA008592D5 /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D63151DA887EA008592D5 /* UITextField+Extension.m */; };
 		E52D631A1DA88CCE008592D5 /* DateUntils.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D63191DA88CCE008592D5 /* DateUntils.m */; };
-		E52D631D1DA8AA09008592D5 /* NetResource.plist in Resources */ = {isa = PBXBuildFile; fileRef = E52D631C1DA8AA09008592D5 /* NetResource.plist */; };
 		E52D63201DA8C258008592D5 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D631F1DA8C258008592D5 /* HttpRequest.m */; };
 		E52D63231DA8D439008592D5 /* ConnectAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E52D63221DA8D439008592D5 /* ConnectAPI.m */; };
 		E597C2FA1D9CBCB900B3A175 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E597C2F91D9CBCB900B3A175 /* main.m */; };
@@ -55,7 +54,6 @@
 		E52D63151DA887EA008592D5 /* UITextField+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extension.m"; sourceTree = "<group>"; };
 		E52D63181DA88CCE008592D5 /* DateUntils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUntils.h; sourceTree = "<group>"; };
 		E52D63191DA88CCE008592D5 /* DateUntils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUntils.m; sourceTree = "<group>"; };
-		E52D631C1DA8AA09008592D5 /* NetResource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NetResource.plist; sourceTree = "<group>"; };
 		E52D631E1DA8C258008592D5 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
 		E52D631F1DA8C258008592D5 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
 		E52D63211DA8D439008592D5 /* ConnectAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectAPI.h; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 		E52D631B1DA8A585008592D5 /* Net */ = {
 			isa = PBXGroup;
 			children = (
-				E52D631C1DA8AA09008592D5 /* NetResource.plist */,
 				E52D631E1DA8C258008592D5 /* HttpRequest.h */,
 				E52D631F1DA8C258008592D5 /* HttpRequest.m */,
 				E52D63211DA8D439008592D5 /* ConnectAPI.h */,
@@ -332,7 +329,6 @@
 			files = (
 				E597C3081D9CBCB900B3A175 /* LaunchScreen.storyboard in Resources */,
 				E597C3051D9CBCB900B3A175 /* Assets.xcassets in Resources */,
-				E52D631D1DA8AA09008592D5 /* NetResource.plist in Resources */,
 				E597C3031D9CBCB900B3A175 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

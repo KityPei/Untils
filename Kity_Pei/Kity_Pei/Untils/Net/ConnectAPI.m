@@ -18,30 +18,14 @@
 /**
  *  网络请求
  *
- *  key plist文件中的key值，通过此key值获取相应的url以及请求方式
+ *  url 请求的url
+ *  requestType 请求方式
  *  timeOut 超时时间
  *  jsonData    请求参数
  *  formData    请求表单数据
  *
- *  注:  存入的在plist文件的时候，url为nsstring，请求方式存入为nsnumber    GET:0   POST:1   PUT:2   DELETE:3
- *
  */
-+ (void)sendRequestWithKey:(NSString *)key timeOut:(NSTimeInterval)timeOut jsonData:(id)jsonData formData:(id)formData success:(HttpSuccess)success failure:(HttpFail)failure {
-    
-    NSDictionary *data = [[NSMutableDictionary alloc] initWithContentsOfFile:kNetPath];
-    NSDictionary *dict = data[key];
-    
-    if (!dict || ![dict isKindOfClass:[NSDictionary class]]) {
-        if (failure) {
-            failure([NSString stringWithFormat:@"cannot find '%@' anydata",key]);
-            return;
-        }
-        NSLog(@"%@", [NSString stringWithFormat:@"cannot find '%@' anydata",key]);
-        return;
-    }
-    
-    int type = [dict[@"type"] intValue];
-    NSString *url = dict[@"url"];
++ (void)sendRequestWithUrl:(NSString *)url requestType:(HttpRequestType)type timeOut:(NSTimeInterval)timeOut jsonData:(id)jsonData formData:(id)formData success:(HttpSuccess)success failure:(HttpFail)failure {
     
     if (![url hasPrefix:@"http"]) {
         if ([url hasPrefix:@"/"]) {
@@ -60,9 +44,6 @@
         
         NSDictionary *responseData = [self JSONResolveWithJson:responseJson];
         if (responseData && [responseData isKindOfClass:[NSDictionary class]]) {
-            
-            NSLog(@"%@",[responseData[kResponseResult] class]);
-            
             if (responseData[kResponseResult] && [responseData[kResponseResult] isKindOfClass:[NSNumber class]] && ([responseData[kResponseResult] intValue]  == kResponseSuccessNum)) {
                 id body = responseData[kResponseMuster];
                 if (body) {

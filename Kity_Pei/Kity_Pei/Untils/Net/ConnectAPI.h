@@ -12,7 +12,6 @@
 #define kServerIP @""           // 网络请求时url中的固定地址
 #define kServerImgIP @""            //图片url中的固定地址
 
-#define kNetPath [[NSBundle mainBundle] pathForResource:@"NetResource" ofType:@"plist"]
 #define kTimeOut 15.     //超时
 
 #define kResponseMuster @"result"             //返回数据的主要数据结构的key值
@@ -40,6 +39,6 @@ typedef void(^HttpFail)(NSString *error);
 
 @interface ConnectAPI : NSObject
 
-+ (void)sendRequestWithKey:(NSString *)key timeOut:(NSTimeInterval)timeOut jsonData:(id)jsonData formData:(id)formData success:(HttpSuccess)success failure:(HttpFail)failure;
++ (void)sendRequestWithUrl:(NSString *)url requestType:(HttpRequestType)type timeOut:(NSTimeInterval)timeOut jsonData:(id)jsonData formData:(id)formData success:(HttpSuccess)success failure:(HttpFail)failure;
 
 @end
